@@ -4,8 +4,7 @@ public class Main {
     public static void main(String[] args) {
         //Para este ejercicio tendréis que crear una
         // función que reciba un precio y devuelva el precio con el IVA incluido.
-
-        float precio=165.25F;
+        float precio=165.25f;
         System.out.println("El precio del producto sin IVA es de: "+precio);
 
         float precioIva=anadirIva(precio);
