@@ -8,7 +8,7 @@ public class CocheCRUDimpl implements CocheCRUD{
     @Override
     public void save(Coche coche) {
         listadoCoches.add(coche);
-        System.out.println("CocheCRUDimpl.save()"+".Se ha guardado el coche "+coche);
+        System.out.println("CocheCRUDimpl.save():"+" Se ha guardado el coche "+coche);
     }
 
     @Override
@@ -19,7 +19,7 @@ public class CocheCRUDimpl implements CocheCRUD{
 
     @Override
     public void delete(Coche coche) {
-        System.out.println(("CocheCRUDimpl.delete()"));
+        System.out.println(("CocheCRUDimpl.delete():"+" Se ha eliminado el coche "+coche));
         listadoCoches.remove(coche);
     }
 }
